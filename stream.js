@@ -42,3 +42,14 @@ navigator.mediaDevices.getUserMedia({
 
 }
 );
+
+
+// 把一个流对象写入到一个文件
+const ws1 = fs.createWriteStream('./test.txt');
+ws1.write('使用Stream写入文本数据...\n');
+ws1.write('END.');
+ws1.end();
+const ws2 = fs.createWriteStream('./test.txt');
+ws2.write(new Buffer('使用Stream写入二进制数据...\n', 'utf-8'));
+ws2.write(new Buffer('END.', 'utf-8'));
+
