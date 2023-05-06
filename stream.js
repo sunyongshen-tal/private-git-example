@@ -28,3 +28,17 @@ rs.on('error', (err) => {
 
 }
 );
+
+
+// 读取本地摄像机数据
+const video = document.getElementById('video');
+navigator.mediaDevices.getUserMedia({
+    video: true
+}
+).then((stream) => {
+
+}
+).catch((err) => {
+
+}
+);
