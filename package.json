@@ -1,0 +1,11 @@
+{
+  "name": "private-git-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sunyongshen-tal/private-git-example.git",
+  "author": "sunyongshen <sunyongshen@tal.com>",
+  "license": "MIT",
+  "scripts": {
+    "install": "node ./install.js"
+  }
+}
