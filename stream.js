@@ -36,7 +36,7 @@ navigator.mediaDevices.getUserMedia({
     video: true
 }
 ).then((stream) => {
-
+    console.log('origin/release')
 }
 ).catch((err) => {
 
