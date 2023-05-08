@@ -37,6 +37,7 @@ navigator.mediaDevices.getUserMedia({
 }
 ).then((stream) => {
     console.log('nihao')
+    console.log('nihao2')
 }
 ).catch((err) => {
 
