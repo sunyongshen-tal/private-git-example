@@ -37,6 +37,8 @@ navigator.mediaDevices.getUserMedia({
 }
 ).then((stream) => {
     console.log('origin/release')
+    console.log('nihao')
+    console.log('nihao2')
 }
 ).catch((err) => {
 
